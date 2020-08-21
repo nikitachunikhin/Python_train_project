@@ -1,3 +1,10 @@
+#head1
+##head2
+###head3
+####head4
+#####head5
+###### head6
+
 # project1
 ##v.1.0 Aug-2020
 ### Description
@@ -8,12 +15,16 @@
 ```
 root/
  |-- README.md
- |--tmp.txt
+ |-- tmp.txt
+ |-- folder \
+     |--- file1 
+     |--- file2
+
 
 ```
 
 To execute this project run:
 
 ```bash
-run.py
+python3 run.py
 ```
