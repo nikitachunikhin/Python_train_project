@@ -6,7 +6,7 @@
 ###### head6
 
 # project1
-##v.1.0 Aug-2020
+## v.1.0 Aug-2020
 ### Description
 
 *Project to train work with git repository and simple python functions*
