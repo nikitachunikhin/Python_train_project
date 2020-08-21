@@ -1,72 +1,18 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
 
 # Pycharm
 .idea/
 .git/
 
-# C extensions
-*.so
-
 # Distribution / packaging
-.Python
 env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Translations
-*.mo
-*.pot
-
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
 .python-version
-
-
-# SageMath parsed files
-*.sage.py
 
 # dotenv
 .env
@@ -89,5 +35,6 @@ ENV/
 
 # binary files
 /core/*.pkl
+*.pkl
 
 #tmp.txt
