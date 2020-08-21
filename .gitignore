@@ -37,4 +37,5 @@ ENV/
 /core/*.pkl
 *.pkl
 
-#tmp.txt
+# csv data
+*.csv
