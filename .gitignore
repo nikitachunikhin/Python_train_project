@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Pycharm
+.idea/
+.git/
+
+# Distribution / packaging
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+
+# mypy
+.mypy_cache/
+
+# binary files
+/core/*.pkl
+*.pkl
+
+# user data
+*.csv
+data/
+
