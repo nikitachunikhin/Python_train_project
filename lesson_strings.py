@@ -105,6 +105,11 @@ print(bs)
 
 
 
+##########
+# s = "abc"
+# s.upper()
+# Out[77]: 'ABC'
+
 
 
 
