@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # print(new)
 
     k = 2
-    i = 255
+    i = 2
 
     # version 1
     # pos_k = poz_index(k, example)
