@@ -28,16 +28,21 @@ if __name__ == '__main__':
     # print(new)
 
     k = 2
-    i = -5
+    i = 255
 
-    pos_k = poz_index(k, example)
-    pos_i = poz_index(i, example)
+    # version 1
+    # pos_k = poz_index(k, example)
+    # pos_i = poz_index(i, example)
+    #
+    # if pos_k and pos_i and (pos_k < pos_i):
+    #     result = example.endswith(example[i - 1], k, i)
+    #     print(result)
+    # else:
+    #     print('result = False or i - out of string')
 
-    if pos_k and pos_i and (pos_k < pos_i):
+    # version 2
+    if example[k:i] and (i < len(example)):
         result = example.endswith(example[i - 1], k, i)
         print(result)
     else:
         print('result = False or i - out of string')
-
-    # print(example[len(example)-1])
-    # print(len(example))
