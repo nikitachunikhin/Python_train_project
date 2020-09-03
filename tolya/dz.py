@@ -1,5 +1,3 @@
-import string
-
 def strrr(a):
    c = a.capitalize()
    return c
@@ -22,20 +20,19 @@ def poz_i(i, example):
       poz_i = None
    return poz_i
 
-
-    #    example = 'knfdjSFj8 78S'
+if __name__ == '__main__':
+   example='knfdjSFj8 78S'
 # new = first_letter_upper(example)
 # print(new)
-#    i = -13
-#    k = 0
-#
-#    #if i<=len(example):
-#    #TODO: написать такое условие на (k,i) чтоб result всегда был = True
-#    if poz_i(i, example):
-#       result = example.endswith(example[i-1], k, i)
-#       print(result)
-#    else:
-#       print('result = False or i - out of string')
+   k = 1
+   i = -13
+   #if i<=len(example):
+   #TODO: написать такое условие чтоб result всегда был = True
+   if ():
+      result = example.endswith(example[i-1], k, i)
+      print(result)
+   else:
+      print('result = False or i - out of string')
 
    #print(example[len(example)-1])
    # print(len(example))
