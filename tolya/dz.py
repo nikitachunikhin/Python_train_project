@@ -1,3 +1,5 @@
+import string
+
 def strrr(a):
    c = a.capitalize()
    return c
@@ -20,21 +22,37 @@ def poz_i(i, example):
       poz_i = None
    return poz_i
 
-if __name__ == '__main__':
-   example='knfdjSFj8 78S'
+
+    #    example = 'knfdjSFj8 78S'
 # new = first_letter_upper(example)
 # print(new)
-   k = 1
-   i = -13
-   #if i<=len(example):
-   #TODO: написать такое условие чтоб result всегда был = True
-   if ():
-      result = example.endswith(example[i-1], k, i)
-      print(result)
-   else:
-      print('result = False or i - out of string')
+#    i = -13
+#    k = 0
+#
+#    #if i<=len(example):
+#    #TODO: написать такое условие на (k,i) чтоб result всегда был = True
+#    if poz_i(i, example):
+#       result = example.endswith(example[i-1], k, i)
+#       print(result)
+#    else:
+#       print('result = False or i - out of string')
 
    #print(example[len(example)-1])
    # print(len(example))
+if __name__ == '__main__':
+   output_result = ''
+   alfabet = string.ascii_lowercase
+   text = "The sunset sets at twelve o' clock."
+   text = text.lower()
+   for letter in text:
+      if letter in alfabet:
+         result = alfabet.index(letter) + 1
+         result = str(result)
+         output_result = output_result + " " + result
+   print(output_result)
+
+
+
+
 
 
