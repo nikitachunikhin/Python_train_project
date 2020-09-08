@@ -36,8 +36,6 @@ def days_represented_ver2(trips):
     for trip in trips:
         for i in range(trip[0], trip[1]+1):
             l[i] = 1
-    print(l)
-
     return sum(l)
 
 
