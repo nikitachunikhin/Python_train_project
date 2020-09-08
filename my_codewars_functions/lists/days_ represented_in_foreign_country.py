@@ -31,10 +31,25 @@ def days_represented(trips):
     result = len(days)
     return result
 
+def days_represented_ver2(trips):
+    l = [0]*366
+    for trip in trips:
+        for i in range(trip[0], trip[1]+1):
+            l[i] = 1
+    print(l)
+
+    return sum(l)
+
+
 
 if __name__ == '__main__':
     trips = [[182, 201], [139, 162], [127, 162], [152, 169], [298, 299], [75, 78], [266, 285], [288, 316], [255, 278], [225, 257], [82, 101]]
     res = days_represented(trips)
     print(res)
+
+    res2 = days_represented_ver2(trips)
+    print(res2)
+
+
 
 
